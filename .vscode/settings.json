@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "portaudio.h": "c",
+        "stdlib.h": "c",
+        "audio_player.h": "c",
+        "pthread.h": "c",
+        "types.h": "c"
+    }
+}
