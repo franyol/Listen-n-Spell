@@ -136,7 +136,7 @@ paData load_audio_from_file (char* file_name)
             "ffmpeg", "-y", "-i",
             file_name, "-acodec", "pcm_f32le",
             "-f", "f32le", "-ac",
-            "1", "data/temp.pcm", NULL
+            "1", "temp.pcm", NULL
         };
         int child_status;
         pid_t child_pid;
